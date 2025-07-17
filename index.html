@@ -1,164 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Team - Legal Firm</title>
-  <style>
-    body {
-    
-      background-color: #f3f4f6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction:column;
-      align-items: center;
-      padding: 2.5rem;
-      font-family: Arial, sans-serif;
-    }
-    h1 {
-         font-family: 'Georgia', serif;
-         color:rgb(230, 93, 0);
-         font-size: 2.25rem;
-         font-weight: 700;
-         margin-bottom: 2.5rem;
-        }
-        .grid {
-          display: grid;
-          grid-template-columns: repeat(1, minmax(0, 1fr));
-          gap: 2rem;
-          max-width: 61rem;
-          width: 100%;
-        }
-        @media (min-width: 640px) {
-          .grid {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team - Legal Firm</title>
+    <style>
+      body {
+        background-color: #f3f4f6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem;
+        font-family: Arial, sans-serif;
       }
-    }
-    @media (min-width: 768px) {
+      h1 {
+        font-family: "Georgia", serif;
+        color: rgb(230, 93, 0);
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+      }
       .grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 2rem;
+        max-width: 61rem;
+        width: 100%;
       }
-    }
-    .card {
-      background: #ffffff;
-      border-radius: 0.75rem;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.1);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 1.5rem;
-    }
-    .card img {
-      width: 8rem;
-      height: 8rem;
-      border-radius: 9999px;
-      object-fit: cover;
-      margin-bottom: 1rem;
-    }
-    .card h2 {
-      font-family: 'Georgia', serif;
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-      /* color:rgb(230, 93, 0); */
-    }
-    .card p {
-      /* color: #4b5563; */
-      color:rgb(216, 110, 39);
-      /* font-style: italic; */
-      /* font: 1em sans-serif; */
-      font-weight: 600;
+      @media (min-width: 640px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (min-width: 768px) {
+        .grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+      .card {
+        background: #ffffff;
+        border-radius: 0.75rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+      }
+      .card img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 9999px;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+      .card h2 {
+        font-family: "Georgia", serif;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        /* color:rgb(230, 93, 0); */
+      }
+      .card p {
+        /* color: #4b5563; */
+        color: rgb(216, 110, 39);
+        /* font-style: italic; */
+        /* font: 1em sans-serif; */
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our Legal Team</h1>
+    <div class="grid">
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/gopika_pant.jpg" alt="John Doe" />
+        <h2>Gopika Pant</h2>
+        <p>Managing Partner</p>
+      </div>
 
-    }
-  </style>
-</head>
-<body>
-  <h1>Our Legal Team</h1>
-  <div class="grid">
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/gopika_pant.jpg" alt="John Doe">
-      <h2>Gopika Pant</h2>
-      <p>Managing  Partner</p>
-    </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Kanika-Atul-Premnarayen.jpg" alt="Alex Johnson" />
+        <h2>Kanika Premnarayan</h2>
+        <p>Partner</p>
+      </div>
 
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Kanika-Atul-Premnarayen.jpg" alt="Alex Johnson">
-      <h2>Kanika Premnarayan</h2>
-      <p>Partner</p>
-    </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Vineet_gupta.jpg" alt="Jane Smith" />
+        <h2>Vineet Gupta</h2>
+        <p>Partner</p>
+      </div>
 
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Vineet_gupta.jpg" alt="Jane Smith">
-      <h2>Vineet Gupta</h2>
-      <p>Partner</p>
-    </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Nishant.jpeg" alt="Alex Johnson" />
+        <h2>Nishant Kulhari</h2>
+        <p>Counsel</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Akshay.jpg" alt="Alex Johnson" />
+        <h2>Akshay Grover</h2>
+        <p>Counsel</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/rajbir_singh_bal.jpg" alt="Alex Johnson" />
+        <h2>Rajbir Singh Bal</h2>
+        <p>Senior Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Vinayek.jpeg" alt="Alex Johnson" />
+        <h2>Vinayek Mehra</h2>
+        <p>Senior Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Varun.jpg" alt="Alex Johnson" />
+        <h2>Varun Pandey</h2>
+        <p>Senior Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Sakshi.jpg" alt="Alex Johnson" />
+        <h2>Sakshi Raj</h2>
+        <p>Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Ibrahim.png" alt="Alex Johnson" />
+        <h2>Ibrahim Meraj</h2>
+        <p>Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Ayush.jpeg" alt="Alex Johnson" />
+        <h2>Ayush Tiwari</h2>
+        <p>Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img src="./images/Shilpi.jpg" alt="Alex Johnson" />
+        <h2>Shilpi Tulsyan</h2>
+        <p>Associate</p>
+      </div>
+      <!-- Member Card -->
+      <div class="card">
+        <img
+          src="./images/WhatsApp_Image_2025-07-17_at_1.18.26_PM-removebg-preview-modified.png"
+          alt="Alex Johnson"
+        />
+        <h2>Aishwarya Sudarshan</h2>
+        <p>Associate</p>
+      </div>
 
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Nishant.jpeg" alt="Alex Johnson">
-      <h2>Nishant Kulhari</h2>
-      <p>Counsel</p>
+      <!-- Add more member cards as needed -->
     </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Akshay.jpg" alt="Alex Johnson">
-      <h2>Akshay Grover</h2>
-      <p>Counsel</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/rajbir_singh_bal.jpg" alt="Alex Johnson">
-      <h2>Rajbir Singh Bal</h2>
-      <p>Senior Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Vinayek.jpeg" alt="Alex Johnson">
-      <h2>Vinayek Mehra</h2>
-      <p>Senior Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Varun.jpg" alt="Alex Johnson">
-      <h2>Varun Pandey</h2>
-      <p>Senior Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Sakshi.jpg" alt="Alex Johnson">
-      <h2>Sakshi Raj</h2>
-      <p>Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Ibrahim.png" alt="Alex Johnson">
-      <h2>Ibrahim Meraj</h2>
-      <p>Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Ayush.jpeg" alt="Alex Johnson">
-      <h2>Ayush Tiwari</h2>
-      <p>Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/Shilpi.jpg" alt="Alex Johnson">
-      <h2>Shilpi Tulsyan</h2>
-      <p>Associate</p>
-    </div>
-    <!-- Member Card -->
-    <div class="card">
-      <img src="./images/WhatsApp_Image_2025-07-17_at_1.18.26_PM-removebg-preview-modified.png" alt="Alex Johnson">
-      <h2>Aishwarya Srivastva</h2>
-      <p>Associate</p>
-    </div>
-
-    <!-- Add more member cards as needed -->
-  </div>
-</body>
+  </body>
 </html>
